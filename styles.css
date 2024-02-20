@@ -17,19 +17,19 @@ body {
 }
 
 .recipe--main {
-  margin: 20px;
+  margin: 7vw;
   background-color: white;
-  padding: 30px;
+  padding: 2vw;
   align-items: center;
-  border-radius: 15px;
+  border-radius: 1.5vw;
   width: 70%;
-  max-width: 500px;
+  max-width: 40vw;
   box-sizing: border-box;
 }
 
 .omelette-dish {
   width: 100%;
-  max-width: 600px;
+  max-width: 60em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,14 +38,14 @@ body {
 img {
   width: 100%;
   max-width: 100%;
-  border-radius: 15px;
+  border-radius: 0.8em;
 }
 
 li,
 p,
 .quantity,
 .nut-name {
-  font-size: 12px;
+  font-size: 0.7em;
 }
 .b-text,
 .quantity {
@@ -53,13 +53,13 @@ p,
 }
 .preparation--time {
   background-color: hsl(330, 100%, 98%);
-  padding: 10px;
-  border-radius: 15px;
+  padding: 0.7em;
+  border-radius: 0.6em;
 }
 
 .preparation--time > h4 {
   color: hsl(297, 72%, 27%);
-  margin: 3px;
+  margin: 0.2rem;
 }
 
 .preparation--list > li {
@@ -138,6 +138,6 @@ h3,
   }
 
   .section-II {
-    padding: 20px;
+    padding: 2vw;
   }
 }
