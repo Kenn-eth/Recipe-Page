@@ -17,9 +17,9 @@ body {
 }
 
 .recipe--main {
-  margin: 50px;
+  margin: 20px;
   background-color: white;
-  padding: 40px;
+  padding: 30px;
   align-items: center;
   border-radius: 15px;
   width: 70%;
@@ -34,6 +34,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 img {
   width: 100%;
   max-width: 100%;
@@ -121,6 +122,22 @@ h3,
   .recipe--main {
     max-width: 100%;
     margin: 0;
-    box-sizing: border-box;
+    padding: 0px;
+    border-radius: 0px;
+    width: 100%;
+  }
+
+  .omelette-dish {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  img {
+    border-radius: 0;
+  }
+
+  .section-II {
+    padding: 20px;
   }
 }
